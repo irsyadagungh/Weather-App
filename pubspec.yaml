@@ -1,0 +1,29 @@
+name: weather
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  http: 1.2.2
+  flutter_advanced_drawer: 1.3.6
+  flutter_animate: 4.5.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  fonts: 
+    - family: CustomIcon
+      fonts: 
+        - asset: assets/icon/fonts/CustomIcon.ttf
+  assets: 
+    - assets/images/
+  uses-material-design: true
+
